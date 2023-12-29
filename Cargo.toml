@@ -16,8 +16,8 @@ embassy-rp = { version = "0.1.0", features = ["defmt", "unstable-pac", "time-dri
 #embassy-net-wiznet = { version = "0.1.0", features = ["defmt"] }
 #embassy-futures = { version = "0.1.0" }
 #embassy-usb-logger = { version = "0.1.0" }
-cyw43 = { version = "0.0.0" }
-cyw43-pio = { version = "0.0.0" }
+cyw43 = { version = "0.1.0" }
+cyw43-pio = { version = "0.1.0" }
 
 
 defmt = "0.3"
@@ -44,7 +44,7 @@ embedded-hal-1 = { package = "embedded-hal", version = "=0.2.7" }
 #embedded-hal-bus = { version = "0.1.0-rc.3", features = ["async"] }
 embedded-io-async = { version = "0.6.1", features = ["defmt-03"] }
 embedded-storage = { version = "0.3" }
-#static_cell = "2"
+static_cell = { version = "2.0.0" }
 #portable-atomic = { version = "1.5", features = ["critical-section"] }
 #log = "0.4"
 #pio-proc = "0.2"
@@ -59,5 +59,6 @@ embassy-time = { git = "https://github.com/embassy-rs/embassy", rev = "03325ea81
 embassy-executor = { git = "https://github.com/embassy-rs/embassy", rev = "03325ea81be84a0472fe66d743afb064eed6b904" }
 embassy-rp = { git = "https://github.com/embassy-rs/embassy", rev = "03325ea81be84a0472fe66d743afb064eed6b904" }
 embassy-sync = { git = "https://github.com/embassy-rs/embassy", rev = "03325ea81be84a0472fe66d743afb064eed6b904" }
+#static_cell = { git = "https://github.com/embassy-rs/embassy", rev = "03325ea81be84a0472fe66d743afb064eed6b904" }
 cyw43 = { git = "https://github.com/embassy-rs/embassy", rev = "03325ea81be84a0472fe66d743afb064eed6b904" }
 cyw43-pio = { git = "https://github.com/embassy-rs/embassy", rev = "03325ea81be84a0472fe66d743afb064eed6b904" }
