@@ -62,3 +62,11 @@ embassy-sync = { git = "https://github.com/embassy-rs/embassy", rev = "03325ea81
 #static_cell = { git = "https://github.com/embassy-rs/embassy", rev = "03325ea81be84a0472fe66d743afb064eed6b904" }
 cyw43 = { git = "https://github.com/embassy-rs/embassy", rev = "03325ea81be84a0472fe66d743afb064eed6b904" }
 cyw43-pio = { git = "https://github.com/embassy-rs/embassy", rev = "03325ea81be84a0472fe66d743afb064eed6b904" }
+
+#embassy-time = { git = "https://github.com/embassy-rs/embassy", rev = "90e96d281f87efdbea3a1418f5354f14386a42e8" }
+#embassy-executor = { git = "https://github.com/embassy-rs/embassy", rev = "90e96d281f87efdbea3a1418f5354f14386a42e8" }
+#embassy-rp = { git = "https://github.com/embassy-rs/embassy", rev = "90e96d281f87efdbea3a1418f5354f14386a42e8" }
+#embassy-sync = { git = "https://github.com/embassy-rs/embassy", rev = "90e96d281f87efdbea3a1418f5354f14386a42e8" }
+#static_cell = { git = "https://github.com/embassy-rs/embassy", rev = "90e96d281f87efdbea3a1418f5354f14386a42e8" }
+#cyw43 = { git = "https://github.com/embassy-rs/embassy", rev = "90e96d281f87efdbea3a1418f5354f14386a42e8" }
+#cyw43-pio = { git = "https://github.com/embassy-rs/embassy", rev = "90e96d281f87efdbea3a1418f5354f14386a42e8" }
